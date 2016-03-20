@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var textLable: UITextView!
+    //IB - Interface builder
+    // weak -  we can break the connection to other components
+    @IBOutlet weak var simpleLabel: UILabel!
     
     @IBAction func buttonPress(sender: UIButton) {
+        //sender is the obj that calld this button. (button)
+        let title  = sender.titleForState(.Normal)!
+        
         
     }
     
