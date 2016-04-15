@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBAction func buttonPress(sender: UIButton) {
         //sender is the obj that calld this button. (button)
         let title  = sender.titleForState(.Normal)!
-        
+         
         
     }
     
